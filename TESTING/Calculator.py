@@ -17,12 +17,11 @@ def calculator():
             if num2 != 0:
                 result = num1 / num2
             else:
-                return "Error: Division by zero"
+                return "Error: Division by zero"    
         else:
             return "Error: Invalid operator"
 
         return f"Result: {result}"
-
     except ValueError:
         return "Error: Invalid input. Please enter the stuepid numbers."
 
