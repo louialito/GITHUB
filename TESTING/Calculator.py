@@ -24,7 +24,7 @@ def calculator():
         return f"Result: {result}"
 
     except ValueError:
-        return "Error: Invalid input. Please enter the godamn numbers."
+        return "Error: Invalid input. Please enter the stuepid numbers."
 
 # Run the calculator
 print(calculator())
